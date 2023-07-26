@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="09526434-9b9b-4e32-a804-277bc7717084" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/core/src/test/java/hello/core/beanfind/ApplicationContextBasicFindTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/src/test/java/hello/core/beanfind/ApplicationContextSameBeanFindTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -66,28 +66,7 @@
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="project.scopes" />
   </component>
-  <component name="RunManager" selected="Gradle.ApplicationContextBasicFindTest.findBeanByNameX">
-    <configuration name="ApplicationContextBasicFindTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$/core" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;hello.core.beanfind.ApplicationContextBasicFindTest&quot;" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Gradle.ApplicationContextSameBeanFindTest.findAllBeanByType">
     <configuration name="ApplicationContextBasicFindTest.findBeanByName2" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -130,12 +109,12 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="ApplicationContextInfoTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="ApplicationContextSameBeanFindTest.findAllBeanByType" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$/core" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;hello.core.beanfind.ApplicationContextInfoTest&quot;" />
+        <option name="scriptParameters" value="--tests &quot;hello.core.beanfind.ApplicationContextSameBeanFindTest.findAllBeanByType&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -151,12 +130,33 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="ApplicationContextInfoTest.findApplicationBean" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="ApplicationContextSameBeanFindTest.findBeanByName" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$/core" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;hello.core.beanfind.ApplicationContextInfoTest.findApplicationBean&quot;" />
+        <option name="scriptParameters" value="--tests &quot;hello.core.beanfind.ApplicationContextSameBeanFindTest.findBeanByName&quot;" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="ApplicationContextSameBeanFindTest.findBeanByTypeDuplicate" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/core" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;hello.core.beanfind.ApplicationContextSameBeanFindTest.findBeanByTypeDuplicate&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -174,11 +174,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.ApplicationContextSameBeanFindTest.findAllBeanByType" />
+        <item itemvalue="Gradle.ApplicationContextSameBeanFindTest.findBeanByName" />
+        <item itemvalue="Gradle.ApplicationContextSameBeanFindTest.findBeanByTypeDuplicate" />
         <item itemvalue="Gradle.ApplicationContextBasicFindTest.findBeanByNameX" />
         <item itemvalue="Gradle.ApplicationContextBasicFindTest.findBeanByName2" />
-        <item itemvalue="Gradle.ApplicationContextBasicFindTest" />
-        <item itemvalue="Gradle.ApplicationContextInfoTest.findApplicationBean" />
-        <item itemvalue="Gradle.ApplicationContextInfoTest" />
       </list>
     </recent_temporary>
   </component>
@@ -219,7 +219,14 @@
       <option name="project" value="LOCAL" />
       <updated>1690297461663</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="ADD : retrieve specific bean">
+      <created>1690383434639</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1690383434639</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -227,6 +234,7 @@
     <MESSAGE value="refactor : remove duplicate" />
     <MESSAGE value="refactor : to Spring" />
     <MESSAGE value="ADD : retrieve all bean" />
-    <option name="LAST_COMMIT_MESSAGE" value="ADD : retrieve all bean" />
+    <MESSAGE value="ADD : retrieve specific bean" />
+    <option name="LAST_COMMIT_MESSAGE" value="ADD : retrieve specific bean" />
   </component>
 </project>
