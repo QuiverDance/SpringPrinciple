@@ -5,7 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="09526434-9b9b-4e32-a804-277bc7717084" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/core/src/test/java/hello/core/beanfind/ApplicationContextSameBeanFindTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/src/main/resources/appConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/src/test/java/hello/core/beanfind/ApplicationContextExtendsFindTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/src/test/java/hello/core/xml/XmlAppContext.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -61,18 +63,18 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="android.sdk.path" value="D:/unity/2020.3.12f1/Editor/Data/PlaybackEngines/AndroidPlayer/SDK" />
-    <property name="project.structure.last.edited" value="SDKs" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="project.scopes" />
   </component>
-  <component name="RunManager" selected="Gradle.ApplicationContextSameBeanFindTest.findAllBeanByType">
-    <configuration name="ApplicationContextBasicFindTest.findBeanByName2" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+  <component name="RunManager" selected="Gradle.XmlAppContext.xmlAppContext">
+    <configuration name="ApplicationContextExtendsFindTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$/core" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;hello.core.beanfind.ApplicationContextBasicFindTest.findBeanByName2&quot;" />
+        <option name="scriptParameters" value="--tests &quot;hello.core.beanfind.ApplicationContextExtendsFindTest&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -88,12 +90,12 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="ApplicationContextBasicFindTest.findBeanByNameX" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="ApplicationContextExtendsFindTest.findAllBeanByParentType" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$/core" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;hello.core.beanfind.ApplicationContextBasicFindTest.findBeanByNameX&quot;" />
+        <option name="scriptParameters" value="--tests &quot;hello.core.beanfind.ApplicationContextExtendsFindTest.findAllBeanByParentType&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -151,12 +153,12 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="ApplicationContextSameBeanFindTest.findBeanByTypeDuplicate" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="XmlAppContext.xmlAppContext" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$/core" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;hello.core.beanfind.ApplicationContextSameBeanFindTest.findBeanByTypeDuplicate&quot;" />
+        <option name="scriptParameters" value="--tests &quot;hello.core.xml.XmlAppContext.xmlAppContext&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -174,11 +176,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.XmlAppContext.xmlAppContext" />
+        <item itemvalue="Gradle.ApplicationContextExtendsFindTest.findAllBeanByParentType" />
+        <item itemvalue="Gradle.ApplicationContextExtendsFindTest" />
         <item itemvalue="Gradle.ApplicationContextSameBeanFindTest.findAllBeanByType" />
         <item itemvalue="Gradle.ApplicationContextSameBeanFindTest.findBeanByName" />
-        <item itemvalue="Gradle.ApplicationContextSameBeanFindTest.findBeanByTypeDuplicate" />
-        <item itemvalue="Gradle.ApplicationContextBasicFindTest.findBeanByNameX" />
-        <item itemvalue="Gradle.ApplicationContextBasicFindTest.findBeanByName2" />
       </list>
     </recent_temporary>
   </component>
@@ -226,7 +228,14 @@
       <option name="project" value="LOCAL" />
       <updated>1690383434639</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="ADD : retrieve duplicated bean">
+      <created>1690384047590</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1690384047590</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -235,6 +244,7 @@
     <MESSAGE value="refactor : to Spring" />
     <MESSAGE value="ADD : retrieve all bean" />
     <MESSAGE value="ADD : retrieve specific bean" />
-    <option name="LAST_COMMIT_MESSAGE" value="ADD : retrieve specific bean" />
+    <MESSAGE value="ADD : retrieve duplicated bean" />
+    <option name="LAST_COMMIT_MESSAGE" value="ADD : retrieve duplicated bean" />
   </component>
 </project>
