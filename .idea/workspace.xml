@@ -5,9 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="09526434-9b9b-4e32-a804-277bc7717084" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/core/src/test/java/hello/core/beanDefiniation/BeanDefinitionTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/core/src/test/java/hello/core/singleton/SingletonService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/core/src/test/java/hello/core/singleton/SingletonTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/src/test/java/hello/core/singleton/StatefulService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/src/test/java/hello/core/singleton/StatefulServiceTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -68,28 +67,12 @@
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="project.scopes" />
   </component>
-  <component name="RunManager" selected="Gradle.SingletonTest">
-    <configuration name="BeanDefinitionTest.findApplicationBean" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$/core" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;hello.core.beanDefiniation.BeanDefinitionTest.findApplicationBean&quot;" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <method v="2" />
-    </configuration>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="hello.core.singleton" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Gradle.StatefulServiceTest.statefulServiceSingleton">
     <configuration name="SingletonTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -153,12 +136,33 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="XmlAppContext.xmlAppContext" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="SingletonTest.springContainer" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$/core" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;hello.core.xml.XmlAppContext.xmlAppContext&quot;" />
+        <option name="scriptParameters" value="--tests &quot;hello.core.singleton.SingletonTest.springContainer&quot;" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="StatefulServiceTest.statefulServiceSingleton" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/core" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;hello.core.singleton.StatefulServiceTest.statefulServiceSingleton&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -176,11 +180,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.StatefulServiceTest.statefulServiceSingleton" />
+        <item itemvalue="Gradle.SingletonTest.springContainer" />
         <item itemvalue="Gradle.SingletonTest" />
         <item itemvalue="Gradle.SingletonTest.singletonServiceTest" />
         <item itemvalue="Gradle.SingletonTest.pureContainer" />
-        <item itemvalue="Gradle.BeanDefinitionTest.findApplicationBean" />
-        <item itemvalue="Gradle.XmlAppContext.xmlAppContext" />
       </list>
     </recent_temporary>
   </component>
@@ -249,7 +253,28 @@
       <option name="project" value="LOCAL" />
       <updated>1690872177838</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="ADD : retrieve bean definitions">
+      <created>1690878110950</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1690878110950</updated>
+    </task>
+    <task id="LOCAL-00010" summary="ADD : singleton container test">
+      <created>1690878125362</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1690878125362</updated>
+    </task>
+    <task id="LOCAL-00011" summary="ADD : singleton container test">
+      <created>1690950098098</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1690950098098</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -261,6 +286,8 @@
     <MESSAGE value="ADD : retrieve duplicated bean" />
     <MESSAGE value="ADD : retrieve bean by Parents" />
     <MESSAGE value="ADD : set appConfig by Xml" />
-    <option name="LAST_COMMIT_MESSAGE" value="ADD : set appConfig by Xml" />
+    <MESSAGE value="ADD : retrieve bean definitions" />
+    <MESSAGE value="ADD : singleton container test" />
+    <option name="LAST_COMMIT_MESSAGE" value="ADD : singleton container test" />
   </component>
 </project>
