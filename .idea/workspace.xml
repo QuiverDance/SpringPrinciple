@@ -5,9 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="09526434-9b9b-4e32-a804-277bc7717084" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/core/src/test/java/hello/core/singleton/StatefulService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/core/src/test/java/hello/core/singleton/StatefulServiceTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/src/main/java/hello/core/AutoAppConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/src/test/java/hello/core/scan/AutoAppConfigTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/main/java/hello/core/discount/RateDiscountPolicy.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/hello/core/discount/RateDiscountPolicy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/main/java/hello/core/member/MemberServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/hello/core/member/MemberServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/main/java/hello/core/member/MemoryMemberRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/hello/core/member/MemoryMemberRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/main/java/hello/core/order/OrderServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/hello/core/order/OrderServiceImpl.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -72,13 +77,13 @@
       <recent name="hello.core.singleton" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.StatefulServiceTest.statefulServiceSingleton">
-    <configuration name="SingletonTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+  <component name="RunManager" selected="Gradle.AutoAppConfigTest.basicScan">
+    <configuration name="AutoAppConfigTest.basicScan" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$/core" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;hello.core.singleton.SingletonTest&quot;" />
+        <option name="scriptParameters" value="--tests &quot;hello.core.scan.AutoAppConfigTest.basicScan&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -94,12 +99,12 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="SingletonTest.pureContainer" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="SingletonTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$/core" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;hello.core.singleton.SingletonTest.pureContainer&quot;" />
+        <option name="scriptParameters" value="--tests &quot;hello.core.singleton.SingletonTest&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -180,11 +185,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.AutoAppConfigTest.basicScan" />
         <item itemvalue="Gradle.StatefulServiceTest.statefulServiceSingleton" />
         <item itemvalue="Gradle.SingletonTest.springContainer" />
         <item itemvalue="Gradle.SingletonTest" />
         <item itemvalue="Gradle.SingletonTest.singletonServiceTest" />
-        <item itemvalue="Gradle.SingletonTest.pureContainer" />
       </list>
     </recent_temporary>
   </component>
@@ -274,7 +279,14 @@
       <option name="project" value="LOCAL" />
       <updated>1690950098098</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="ADD : StatefulService test">
+      <created>1690952530852</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1690952530852</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -288,6 +300,7 @@
     <MESSAGE value="ADD : set appConfig by Xml" />
     <MESSAGE value="ADD : retrieve bean definitions" />
     <MESSAGE value="ADD : singleton container test" />
-    <option name="LAST_COMMIT_MESSAGE" value="ADD : singleton container test" />
+    <MESSAGE value="ADD : StatefulService test" />
+    <option name="LAST_COMMIT_MESSAGE" value="ADD : StatefulService test" />
   </component>
 </project>
