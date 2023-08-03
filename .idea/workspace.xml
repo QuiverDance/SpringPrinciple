@@ -5,11 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="09526434-9b9b-4e32-a804-277bc7717084" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/core/src/test/java/hello/core/scan/filter/BeanA.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/core/src/test/java/hello/core/scan/filter/BeanB.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/core/src/test/java/hello/core/scan/filter/ComponentFilterAppConfigTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/core/src/test/java/hello/core/scan/filter/MyExcludeComponent.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/core/src/test/java/hello/core/scan/filter/MyIncludeComponent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/src/test/java/hello/core/autowired/AutowiredTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/src/test/java/hello/core/order/OrderServiceImplTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -72,11 +69,12 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="hello.core.order" />
       <recent name="hello.core.scan.filter" />
       <recent name="hello.core.singleton" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.ComponentFilterAppConfigTest.filterScan">
+  <component name="RunManager" selected="Gradle.AutowiredTest.AutowiredOption">
     <configuration name="AutoAppConfigTest.basicScan" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -98,12 +96,12 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="ComponentFilterAppConfigTest.filterScan" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="AutowiredTest.AutowiredOption" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$/core" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;hello.core.scan.filter.ComponentFilterAppConfigTest.filterScan&quot;" />
+        <option name="scriptParameters" value="--tests &quot;hello.core.autowired.AutowiredTest.AutowiredOption&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -119,12 +117,12 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="SingletonTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="ComponentFilterAppConfigTest.filterScan" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$/core" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;hello.core.singleton.SingletonTest&quot;" />
+        <option name="scriptParameters" value="--tests &quot;hello.core.scan.filter.ComponentFilterAppConfigTest.filterScan&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -184,11 +182,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.AutowiredTest.AutowiredOption" />
         <item itemvalue="Gradle.ComponentFilterAppConfigTest.filterScan" />
         <item itemvalue="Gradle.AutoAppConfigTest.basicScan" />
         <item itemvalue="Gradle.StatefulServiceTest.statefulServiceSingleton" />
         <item itemvalue="Gradle.SingletonTest.springContainer" />
-        <item itemvalue="Gradle.SingletonTest" />
       </list>
     </recent_temporary>
   </component>
@@ -292,7 +290,14 @@
       <option name="project" value="LOCAL" />
       <updated>1690954064968</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="ADD : add filter Test">
+      <created>1690955238624</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1690955238624</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -308,6 +313,7 @@
     <MESSAGE value="ADD : singleton container test" />
     <MESSAGE value="ADD : StatefulService test" />
     <MESSAGE value="REFACTOR : add autoAppConfig" />
-    <option name="LAST_COMMIT_MESSAGE" value="REFACTOR : add autoAppConfig" />
+    <MESSAGE value="ADD : add filter Test" />
+    <option name="LAST_COMMIT_MESSAGE" value="ADD : add filter Test" />
   </component>
 </project>
