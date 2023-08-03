@@ -4,11 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="09526434-9b9b-4e32-a804-277bc7717084" name="Changes" comment="ADD : Autowired Option Test">
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+    <list default="true" id="09526434-9b9b-4e32-a804-277bc7717084" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/core/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/src/main/java/hello/core/order/OrderServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/hello/core/order/OrderServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/test/java/hello/core/discount/RateDiscountPolicyTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/test/java/hello/core/discount/RateDiscountPolicyTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -75,7 +73,7 @@
       <recent name="hello.core.singleton" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.AutowiredTest.AutowiredOption">
+  <component name="RunManager" selected="Gradle.Tests in 'core.core.test~1'">
     <configuration name="AutoAppConfigTest.basicScan" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -139,27 +137,6 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="SingletonTest.springContainer" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$/core" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;hello.core.singleton.SingletonTest.springContainer&quot;" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <method v="2" />
-    </configuration>
     <configuration name="StatefulServiceTest.statefulServiceSingleton" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -181,13 +158,34 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
+    <configuration name="Tests in 'core.core.test~1'" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/core" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests *" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.Tests in 'core.core.test~1'" />
         <item itemvalue="Gradle.AutowiredTest.AutowiredOption" />
         <item itemvalue="Gradle.ComponentFilterAppConfigTest.filterScan" />
         <item itemvalue="Gradle.AutoAppConfigTest.basicScan" />
         <item itemvalue="Gradle.StatefulServiceTest.statefulServiceSingleton" />
-        <item itemvalue="Gradle.SingletonTest.springContainer" />
       </list>
     </recent_temporary>
   </component>
@@ -305,7 +303,21 @@
       <option name="project" value="LOCAL" />
       <updated>1691046744872</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="ADD : Lombok library">
+      <created>1691047606874</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1691047606874</updated>
+    </task>
+    <task id="LOCAL-00017" summary="REFACTOR : add Lombok Constructor">
+      <created>1691048014008</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1691048014008</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -323,6 +335,8 @@
     <MESSAGE value="REFACTOR : add autoAppConfig" />
     <MESSAGE value="ADD : add filter Test" />
     <MESSAGE value="ADD : Autowired Option Test" />
-    <option name="LAST_COMMIT_MESSAGE" value="ADD : Autowired Option Test" />
+    <MESSAGE value="ADD : Lombok library" />
+    <MESSAGE value="REFACTOR : add Lombok Constructor" />
+    <option name="LAST_COMMIT_MESSAGE" value="REFACTOR : add Lombok Constructor" />
   </component>
 </project>
