@@ -4,10 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="09526434-9b9b-4e32-a804-277bc7717084" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/core/src/test/java/hello/core/autowired/AutowiredTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/core/src/test/java/hello/core/order/OrderServiceImplTest.java" afterDir="false" />
+    <list default="true" id="09526434-9b9b-4e32-a804-277bc7717084" name="Changes" comment="ADD : Autowired Option Test">
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/core/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/main/java/hello/core/order/OrderServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/hello/core/order/OrderServiceImpl.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,7 +66,7 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="project.scopes" />
+    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.annotationProcessors" />
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
@@ -297,7 +298,14 @@
       <option name="project" value="LOCAL" />
       <updated>1690955238624</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="ADD : Autowired Option Test">
+      <created>1691046744872</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1691046744872</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -314,6 +322,7 @@
     <MESSAGE value="ADD : StatefulService test" />
     <MESSAGE value="REFACTOR : add autoAppConfig" />
     <MESSAGE value="ADD : add filter Test" />
-    <option name="LAST_COMMIT_MESSAGE" value="ADD : add filter Test" />
+    <MESSAGE value="ADD : Autowired Option Test" />
+    <option name="LAST_COMMIT_MESSAGE" value="ADD : Autowired Option Test" />
   </component>
 </project>
