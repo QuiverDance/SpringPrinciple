@@ -5,8 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="09526434-9b9b-4e32-a804-277bc7717084" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/core/src/main/java/hello/core/annotation/MainDiscountPolicy.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/src/test/java/hello/core/discount/RateDiscountPolicyTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/test/java/hello/core/discount/RateDiscountPolicyTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/main/java/hello/core/discount/RateDiscountPolicy.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/hello/core/discount/RateDiscountPolicy.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -317,7 +318,14 @@
       <option name="project" value="LOCAL" />
       <updated>1691048014008</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="REFACTOR : revise test result code">
+      <created>1691048361115</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1691048361115</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -337,6 +345,7 @@
     <MESSAGE value="ADD : Autowired Option Test" />
     <MESSAGE value="ADD : Lombok library" />
     <MESSAGE value="REFACTOR : add Lombok Constructor" />
-    <option name="LAST_COMMIT_MESSAGE" value="REFACTOR : add Lombok Constructor" />
+    <MESSAGE value="REFACTOR : revise test result code" />
+    <option name="LAST_COMMIT_MESSAGE" value="REFACTOR : revise test result code" />
   </component>
 </project>
