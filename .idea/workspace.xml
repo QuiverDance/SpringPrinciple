@@ -5,9 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="09526434-9b9b-4e32-a804-277bc7717084" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/core/src/test/java/hello/core/scope/PrototypeTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/src/test/java/hello/core/scope/SingletonTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/src/test/java/hello/core/lifecycle/BeanLifeCycleTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/test/java/hello/core/lifecycle/BeanLifeCycleTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/src/test/java/hello/core/lifecycle/NetworkClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/test/java/hello/core/lifecycle/NetworkClient.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -74,34 +74,13 @@
       <recent name="hello.core.singleton" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.BeanLifeCycleTest.lifeCycleTest">
+  <component name="RunManager" selected="Gradle.PrototypeTest.prototypeBeanFind">
     <configuration name="AllBeanTest.findAllBean" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$/core" />
         <option name="externalSystemIdString" value="GRADLE" />
         <option name="scriptParameters" value="--tests &quot;hello.core.autowired.AllBeanTest.findAllBean&quot;" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <method v="2" />
-    </configuration>
-    <configuration name="AutowiredTest.AutowiredOption" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$/core" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;hello.core.autowired.AutowiredTest.AutowiredOption&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -138,12 +117,33 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="ComponentFilterAppConfigTest.filterScan" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="PrototypeTest.prototypeBeanFind" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$/core" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;hello.core.scan.filter.ComponentFilterAppConfigTest.filterScan&quot;" />
+        <option name="scriptParameters" value="--tests &quot;hello.core.scope.PrototypeTest.prototypeBeanFind&quot;" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="SingletonTest.singletonBeanFind" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/core" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;hello.core.scope.SingletonTest.singletonBeanFind&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -182,11 +182,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.PrototypeTest.prototypeBeanFind" />
+        <item itemvalue="Gradle.SingletonTest.singletonBeanFind" />
         <item itemvalue="Gradle.BeanLifeCycleTest.lifeCycleTest" />
         <item itemvalue="Gradle.AllBeanTest.findAllBean" />
         <item itemvalue="Gradle.Tests in 'core.core.test~1'" />
-        <item itemvalue="Gradle.AutowiredTest.AutowiredOption" />
-        <item itemvalue="Gradle.ComponentFilterAppConfigTest.filterScan" />
       </list>
     </recent_temporary>
   </component>
@@ -353,7 +353,14 @@
       <option name="project" value="LOCAL" />
       <updated>1691210489976</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="REFACTOR : revise init, destroy method by annotation">
+      <created>1691210658093</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1691210658093</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -378,6 +385,7 @@
     <MESSAGE value="ADD : bean mapping Test" />
     <MESSAGE value="ADD : BeanLifeCycleTest" />
     <MESSAGE value="REFACTOR : revise init, destroy method" />
-    <option name="LAST_COMMIT_MESSAGE" value="REFACTOR : revise init, destroy method" />
+    <MESSAGE value="REFACTOR : revise init, destroy method by annotation" />
+    <option name="LAST_COMMIT_MESSAGE" value="REFACTOR : revise init, destroy method by annotation" />
   </component>
 </project>
