@@ -373,7 +373,14 @@
       <option name="project" value="LOCAL" />
       <updated>1691213069503</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="REFACTOR : Solve a problem using singletonBean with prototypeBean by using ObjectProvider">
+      <created>1691213830442</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1691213830442</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -401,6 +408,7 @@
     <MESSAGE value="REFACTOR : revise init, destroy method by annotation" />
     <MESSAGE value="ADD : SingletonBean &amp; PrototypeBean Test" />
     <MESSAGE value="ADD : A problem using singletonBean with prototypeBean" />
-    <option name="LAST_COMMIT_MESSAGE" value="ADD : A problem using singletonBean with prototypeBean" />
+    <MESSAGE value="REFACTOR : Solve a problem using singletonBean with prototypeBean by using ObjectProvider" />
+    <option name="LAST_COMMIT_MESSAGE" value="REFACTOR : Solve a problem using singletonBean with prototypeBean by using ObjectProvider" />
   </component>
 </project>
