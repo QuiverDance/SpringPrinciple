@@ -5,8 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="09526434-9b9b-4e32-a804-277bc7717084" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/core/src/test/java/hello/core/scope/SingletonWithPrototypeTest1.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/test/java/hello/core/scope/SingletonWithPrototypeTest1.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/test/java/hello/core/scope/SingletonWithPrototypeTest1.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -366,7 +366,14 @@
       <option name="project" value="LOCAL" />
       <updated>1691211736149</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="ADD : A problem using singletonBean with prototypeBean">
+      <created>1691213069503</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1691213069503</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -393,6 +400,7 @@
     <MESSAGE value="REFACTOR : revise init, destroy method" />
     <MESSAGE value="REFACTOR : revise init, destroy method by annotation" />
     <MESSAGE value="ADD : SingletonBean &amp; PrototypeBean Test" />
-    <option name="LAST_COMMIT_MESSAGE" value="ADD : SingletonBean &amp; PrototypeBean Test" />
+    <MESSAGE value="ADD : A problem using singletonBean with prototypeBean" />
+    <option name="LAST_COMMIT_MESSAGE" value="ADD : A problem using singletonBean with prototypeBean" />
   </component>
 </project>
