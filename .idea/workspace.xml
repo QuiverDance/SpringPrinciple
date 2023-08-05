@@ -5,9 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="09526434-9b9b-4e32-a804-277bc7717084" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/core/src/test/java/hello/core/lifecycle/BeanLifeCycleTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/core/src/test/java/hello/core/lifecycle/NetworkClient.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/test/java/hello/core/lifecycle/BeanLifeCycleTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/test/java/hello/core/lifecycle/BeanLifeCycleTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/test/java/hello/core/lifecycle/NetworkClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/test/java/hello/core/lifecycle/NetworkClient.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -339,7 +339,14 @@
       <option name="project" value="LOCAL" />
       <updated>1691157957022</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="ADD : BeanLifeCycleTest">
+      <created>1691210148747</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1691210148747</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -362,6 +369,7 @@
     <MESSAGE value="REFACTOR : revise test result code" />
     <MESSAGE value="ADD : custom annotation" />
     <MESSAGE value="ADD : bean mapping Test" />
-    <option name="LAST_COMMIT_MESSAGE" value="ADD : bean mapping Test" />
+    <MESSAGE value="ADD : BeanLifeCycleTest" />
+    <option name="LAST_COMMIT_MESSAGE" value="ADD : BeanLifeCycleTest" />
   </component>
 </project>
