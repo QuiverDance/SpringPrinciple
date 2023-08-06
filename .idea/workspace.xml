@@ -5,8 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="09526434-9b9b-4e32-a804-277bc7717084" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/core/src/main/java/hello/core/common/MyLogger.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/src/main/java/hello/core/web/LogDemoController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/src/main/java/hello/core/web/LogDemoService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/src/test/java/hello/core/scope/SingletonWithPrototypeTest1.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/test/java/hello/core/scope/SingletonWithPrototypeTest1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/core/build.gradle" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,33 +71,28 @@
     <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.annotationProcessors" />
   </component>
   <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="hello.core.web" />
+    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="hello.core.order" />
       <recent name="hello.core.scan.filter" />
       <recent name="hello.core.singleton" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.SingletonWithPrototypeTest1.singletonClientUsePrototype">
-    <configuration name="BeanLifeCycleTest.lifeCycleTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$/core" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;hello.core.lifecycle.BeanLifeCycleTest.lifeCycleTest&quot;" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <method v="2" />
+  <component name="RunManager" selected="Application.CoreApplication">
+    <configuration name="CoreApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="hello.core.CoreApplication" />
+      <module name="core.core.main~1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="hello.core.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
     <configuration name="PrototypeTest.prototypeBeanFind" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
@@ -181,11 +180,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.CoreApplication" />
         <item itemvalue="Gradle.SingletonWithPrototypeTest1.singletonClientUsePrototype" />
         <item itemvalue="Gradle.SingletonWithPrototypeTest1.prototypeFind" />
         <item itemvalue="Gradle.PrototypeTest.prototypeBeanFind" />
         <item itemvalue="Gradle.SingletonTest.singletonBeanFind" />
-        <item itemvalue="Gradle.BeanLifeCycleTest.lifeCycleTest" />
       </list>
     </recent_temporary>
   </component>
@@ -380,11 +379,17 @@
       <option name="project" value="LOCAL" />
       <updated>1691213830442</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="REFACTOR : Solve a problem using singletonBean with prototypeBean by using javax.inject provider">
+      <created>1691213945881</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1691213945881</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="add AppConfig" />
     <MESSAGE value="refactor : remove duplicate" />
     <MESSAGE value="refactor : to Spring" />
     <MESSAGE value="ADD : retrieve all bean" />
@@ -409,6 +414,7 @@
     <MESSAGE value="ADD : SingletonBean &amp; PrototypeBean Test" />
     <MESSAGE value="ADD : A problem using singletonBean with prototypeBean" />
     <MESSAGE value="REFACTOR : Solve a problem using singletonBean with prototypeBean by using ObjectProvider" />
-    <option name="LAST_COMMIT_MESSAGE" value="REFACTOR : Solve a problem using singletonBean with prototypeBean by using ObjectProvider" />
+    <MESSAGE value="REFACTOR : Solve a problem using singletonBean with prototypeBean by using javax.inject provider" />
+    <option name="LAST_COMMIT_MESSAGE" value="REFACTOR : Solve a problem using singletonBean with prototypeBean by using javax.inject provider" />
   </component>
 </project>
